@@ -4,7 +4,7 @@ pipeline {
         stage('Static Analysis') {
             steps {
                 echo 'Run the static analysis to the code' 
-                echo 'Hi...This is my first pipeline'
+                echo 'Hi...This is first pipeline by Shree'
             }
         }
         stage('Compile') {
